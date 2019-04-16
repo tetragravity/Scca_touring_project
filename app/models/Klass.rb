@@ -1,4 +1,4 @@
-class Listing
+class Klass
 
     attr_reader :city
 
@@ -9,7 +9,7 @@ class Listing
         @@all << self
     end
 
-    def self.all 
+    def self.all
         @@all
     end
 
@@ -55,4 +55,3 @@ class Listing
 
 
 end
-

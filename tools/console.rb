@@ -4,6 +4,31 @@ def reload
   load 'config/environment.rb'
 end
 
+
+honda_civic = Car.new("HondaCivic")
+honda_civic_type_r = Car.new("Honda Civic Type R")
+nissan_gtr = Car.new("Nissan GTR")
+dodge_hellcat = Car.new("Dodge Hellcat")
+chevrolet_z06 = Car.new("Chevy Corvette Z06")
+mclaren_p1 = Car.new("Mclare P1")
+
+class_c = Klass.new("Class C")
+class_b = Klass.new("Class B")
+class_a = Klass.new("Class A")
+class_s = Klass.new("Class S")
+
+nurburgring = Course.new("Nürburgring Nordschleife")
+fuji = Course.new("Mt Fuji Speedway")
+indianappolis = Course.new("Indianappolis Speedway")
+laguna_seca = Course.new("Laguna Seca")
+silverstone = Course.new("Silverstone Speedway")
+suzuka = Course.new("Suzuka Circuit")
+willow_springs = Course.new("Willow Springs")
+
+
+
+
+
 buffy = Guest.new("Buffy")
 justin = Guest.new("Justin")
 buffy_house = Listing.new("Sunnydale")
@@ -31,7 +56,7 @@ Trip.new(willow_house, buffy)
 
 
 # puts "Trip knows its guest and listing?"
-# puts buffy_trip.guest == buffy 
+# puts buffy_trip.guest == buffy
 # puts buffy_trip.listing == tokyo_house
 
 # puts "Listing knows all its trips?"
@@ -46,5 +71,3 @@ Trip.new(willow_house, buffy)
 
 
 Pry.start
-
-

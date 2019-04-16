@@ -1,4 +1,4 @@
-class Trip
+class Course
 
     attr_reader :guest, :listing
 
@@ -10,7 +10,7 @@ class Trip
     end
 
     # def self.all # Trip.all
-    #     @@all 
+    #     @@all
     # end
 
     def all # vegas.all
